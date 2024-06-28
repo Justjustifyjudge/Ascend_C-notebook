@@ -63,7 +63,7 @@ D. PNGD（PNG Decoding）
 
 ![支持的编码格式](image-10.png)
 
-应该是选择A，可以支持JPEG2000，不支持渐进JPEG。
+可以排除A和C。一般来讲肯定支持哈夫曼编码，而算数编码比较复杂，应该选择不支持算数编码。
 
 ![APPI](image-11.png)
 
@@ -72,6 +72,7 @@ D. PNGD（PNG Decoding）
 ![alt text](image-12.png)
 
 第四空必错，其他位置还有一处错误。
+第二空应不带后缀。
 
 ![alt text](image-13.png)
 
@@ -101,7 +102,7 @@ GPT情报为选1、2、3.
 
 ![DVPP_Resize_接口](image-21.png)
 
-全选不对，1.2.3也不对。
+全选不对，1.2.3也不对，1.2.4也不对，猜测应该是1.2或者3.4
 
 ![acldvppMalloc](image-22.png)
 
@@ -112,5 +113,9 @@ GPT情报为选1、2、3.
 ![DVPP功能](image-24.png)
 
 ![AIPP功能](image-25.png)
+
+![alt text](image-27.png)
+
+![DVPP解码](image-29.png)
 
 ![yeah](image-26.png)
