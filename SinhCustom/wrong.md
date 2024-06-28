@@ -29,3 +29,88 @@ D项：用于媒体数据处理的接口对Device上的内存有特定的要求�
 ![alt text](img_.png)
 应选A图像解码。
 VPC功能模块实现的主要是图像和视频的预处理操作，图像的解码功能有JpegD、PngD这些DVPP模块下的子模块实现。
+
+![alt text](image-4.png)
+应选VDNC，从选项来看，通常的缩写和功能对应如下：
+
+A. VDNC（Video Decoding and Coding）
+B. VENC（Video Encoding）
+C. JPEGD（JPEG Decoding）
+D. PNGD（PNG Decoding）
+
+在这些选项中，VDPP通常不包含的是 VDNC。这是因为DVPP通常涉及的是单一方向的处理（解码或编码），而VDNC同时包含了解码和编码两个方向的处理，属于更高层次的视频处理范畴。因此，A. VDNC 是正确答案。
+
+![alt text](image-5.png)
+目前不能不可以使用ATC工具转换为昇腾AI处理器离线模型的网络架构为Pytorch。
+
+![alt text](image-6.png)
+
+![.mp4特殊性](image-7.png)
+.mp4是高层次视频容器，里面包含了音频流、视频流等多种信息。Acl视频处理更加专注于处理编码格式的视频流入H264、H265等。
+
+
+![VPC功能](image-18.png)
+
+![VPC](image-8.png)
+
+据GPT不可靠情报，应选拼接。
+情报更新，应选择叠加。
+情报确定，应选择旋转。
+
+![alt text](image-9.png)
+
+据GPT不可靠情报，应选CreateChannel和DecodeAsync
+
+![支持的编码格式](image-10.png)
+
+应该是选择A，可以支持JPEG2000，不支持渐进JPEG。
+
+![APPI](image-11.png)
+
+应全选。
+
+![alt text](image-12.png)
+
+第四空必错，其他位置还有一处错误。
+
+![alt text](image-13.png)
+
+猜测此处不需要取间址。
+
+![alt text](image-14.png)
+
+此处第二空需要取间址，将相应数据写入modelId指向的内存中。
+
+![alt text](image-15.png)
+
+猜测此处第一空不需要取间址。
+
+![DVPP功能](image-16.png)
+
+猜测应选择抠图、格式转换和视频编解码。
+
+![DVPP的resize功能](image-17.png)
+
+GPT情报为选1、2、3.
+
+![ACL_MEMCPY_HOST_TO_DEVICE](image-19.png)
+
+答案正确
+
+![alt text](image-20.png)
+
+![DVPP_Resize_接口](image-21.png)
+
+全选不对，1.2.3也不对。
+
+![acldvppMalloc](image-22.png)
+
+答案正确。
+
+![AIPP与DVPP](image-23.png)
+
+![DVPP功能](image-24.png)
+
+![AIPP功能](image-25.png)
+
+![yeah](image-26.png)
